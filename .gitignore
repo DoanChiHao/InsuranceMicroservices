@@ -1,0 +1,24 @@
+## .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+*.log
+
+## Gradle / Java (eureka-server)
+.gradle/
+build/
+!scripts/build.sh
+!scripts/build.bat
+
+## Node / Vue (Web)
+node_modules/
+
+## Khac
+db-backups/
+*.rar
+*.zip
+.env
+.env.local
